@@ -22,24 +22,28 @@
     <main>
        <section class="noticias">
         <article class="noticia">
-            <img src="../img/Play_Tv.png" alt=""> 
+            <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt=""> 
             <h2>Notícias </h2>
             <p>Las últimas noticias en tiempo real</p>
             <a href="#">Leia mais...</a>
         </article>
         <article class="noticia">
-            <img src="../img/Play_Tv.png" alt=""> 
+            <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt=""> 
             <h2>Notícias </h2>
             <p>Las últimas noticias en tiempo real</p>
             <a href="#">Leia mais...</a>
         </article>
         <article class="noticia">
-            <img src="../img/Play_Tv.png" alt=""> 
+            <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt=""> 
             <h2>Notícias </h2>
             <p>Las últimas noticias en tiempo real</p>
             <a href="#">Leia mais...</a>
         </article>
-       </section>
+       </section> 
+       <div id="lightbox" class="lightbox" onclick="fecharlightbox()" >
+       <span class="fechar">&times;</span>
+       <img src=""  class="lightbox-img" id="lightbox-img">
+       </div>
     </main>
 
     <footer>
