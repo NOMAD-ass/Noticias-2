@@ -8,10 +8,10 @@
     <script src="../js/script.js"></script>
     <title>Notícias</title>
 </head>
-<body class="claro">
+<body class="claro" onload="exbir_noticias()">
     <header>
         <button  onclick="mudarTema()">Tema</button>
-       <img src="../img/Play_Tv.png" alt=""> 
+       <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt="Play TV" > 
        <h1>Notícias web</h1>
     </header>
 
@@ -20,21 +20,21 @@
     </nav>
 
     <main>
-       <section class="noticias">
+       <section class="noticias" id="noticias">
         <article class="noticia">
-            <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt=""> 
+            <img src="" onclick="abrirlightbox(this)" alt=""> 
             <h2>Notícias </h2>
             <p>Las últimas noticias en tiempo real</p>
             <a href="#">Leia mais...</a>
         </article>
         <article class="noticia">
-            <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt=""> 
+            <img src="" onclick="abrirlightbox(this)" alt=""> 
             <h2>Notícias </h2>
             <p>Las últimas noticias en tiempo real</p>
             <a href="#">Leia mais...</a>
         </article>
         <article class="noticia">
-            <img src="../img/Play_Tv.png" onclick="abrirlightbox(this)" alt=""> 
+            <img src="../img/Sexta-feira.jpg" onclick="abrirlightbox(this)" alt=""> 
             <h2>Notícias </h2>
             <p>Las últimas noticias en tiempo real</p>
             <a href="#">Leia mais...</a>
