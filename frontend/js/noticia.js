@@ -56,3 +56,8 @@ function exbir_noticias() {
 
 }
 
+function mudar_titulo(element) {
+    element.innerText = "Sexta-feira";
+
+}
+
